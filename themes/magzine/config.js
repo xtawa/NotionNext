@@ -42,7 +42,7 @@ const CONFIG = {
       name: '友情链接',
       menus: [
         {
-          title: 'YanLuo洛's Blog',
+          title: 'YanLuo洛的 Blog',
           href: 'https://xtawa.top'
         },
         {
