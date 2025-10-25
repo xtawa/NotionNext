@@ -9,8 +9,8 @@ const CONFIG = {
 
   MAGZINE_HOME_TITLE: '立即开创您的在线业务。完全免费。',
   MAGZINE_HOME_DESCRIPTION:
-    '借助NotionNext，获得助您开创、经营和扩展业务所需的全部工具和帮助。',
-  MAGZINE_HOME_TIPS: 'AI时代来临，这是属于超级个体的狂欢盛宴！',
+    '借助本站教程，获得助您开创、经营和扩展业务所需的全部工具和帮助。',
+  MAGZINE_HOME_TIPS: '聚焦全球商业新机遇与前沿趋势。',
 
   // 首页底部推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   MAGZINE_RECOMMEND_POST_TAG: '推荐',
@@ -30,7 +30,7 @@ const CONFIG = {
   MAGZINE_POST_DETAIL_TAG: true, // 文章显示标签
 
   // 文章页面联系卡
-  MAGZINE_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  MAGZINE_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   MAGZINE_SOCIAL_CARD_TITLE_1: '交流频道',
   MAGZINE_SOCIAL_CARD_TITLE_2: '加入社群讨论分享',
   MAGZINE_SOCIAL_CARD_TITLE_3: '点击加入社群',
@@ -42,34 +42,12 @@ const CONFIG = {
       name: '友情链接',
       menus: [
         {
-          title: 'Tangly的学习笔记',
-          href: 'https://blog.tangly1024.com'
+          title: 'YanLuo洛's Blog',
+          href: 'https://xtawa.top'
         },
         {
           title: 'NotionNext',
           href: 'https://www.tangly1024.com'
-        }
-      ]
-    },
-    {
-      name: '开发者',
-      menus: [
-        { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-        {
-          title: '开发帮助',
-          href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-        },
-        {
-          title: '功能反馈',
-          href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-        },
-        {
-          title: '技术讨论',
-          href: 'https://github.com/tangly1024/NotionNext/discussions'
-        },
-        {
-          title: '关于作者',
-          href: 'https://blog.tangly1024.com/about'
         }
       ]
     },
